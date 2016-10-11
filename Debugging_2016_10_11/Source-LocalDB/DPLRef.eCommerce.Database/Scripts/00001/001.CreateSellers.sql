@@ -8,7 +8,8 @@
 		BankRoutingNumber int not null default(0),
 		BankAccountNumber int not null default(0),
 		OrderNotificationEmail nvarchar(1000) null,
-		UserName varchar(50) not null
+		UserName varchar(50) not null,
+		IsDeleted bit not null default(0)
 	)
 
 go
