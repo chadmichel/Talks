@@ -3,11 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documentation", "_Documentation", "{5467AE7E-408D-4BCB-8C9B-8B79FBA8AABB}"
-	ProjectSection(SolutionItems) = preProject
-		_Documentation\ReadMe.txt = _Documentation\ReadMe.txt
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Clients", "1. Clients", "{1B7B0F14-935C-4EBA-82BA-4A8E4AF4EBAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Managers", "2. Managers", "{FA3D333D-51BA-4A3F-973C-44AE4489AFC3}"
@@ -49,24 +44,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.BackOfficeAdmin", "DPLRef.eCommerce.Client.BackOfficeAdmin\Client.BackOfficeAdmin.csproj", "{420E7775-230F-4A59-A3EE-C18E08688831}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts.BackOfficeAdmin", "DPLRef.eCommerce.Contracts.BackOfficeAdmin\Contracts.BackOfficeAdmin.csproj", "{54A4D578-AAF0-4C5B-850E-7CDC2A5920D1}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Analysis", "Analysis", "{FD5535AB-35CA-46DE-AF47-8D0FBA798809}"
-	ProjectSection(SolutionItems) = preProject
-		_Documentation\Analysis\eCommerce Analysis.docx = _Documentation\Analysis\eCommerce Analysis.docx
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{725143E1-92A4-4CBB-AADC-35053654CD1A}"
-	ProjectSection(SolutionItems) = preProject
-		_Documentation\Design\eCommerce Architecture Process.pptx = _Documentation\Design\eCommerce Architecture Process.pptx
-		_Documentation\Design\Namespaces.txt = _Documentation\Design\Namespaces.txt
-		_Documentation\Design\Scratchpad.cs = _Documentation\Design\Scratchpad.cs
-		_Documentation\Design\Validation and Detailed Design.docx = _Documentation\Design\Validation and Detailed Design.docx
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{6227B0DE-EA67-41E0-A110-08CCA3A57C98}"
-	ProjectSection(SolutionItems) = preProject
-		_Documentation\Requirements\Stories.xlsx = _Documentation\Requirements\Stories.xlsx
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Utilities", "DPLRef.eCommerce.Common.Utilities\Common.Utilities.csproj", "{15D14F35-2770-444F-AF43-32CDFF490903}"
 EndProject
@@ -161,9 +138,6 @@ Global
 		{ECD14047-8625-4925-9E75-E8B99982337D} = {1B7B0F14-935C-4EBA-82BA-4A8E4AF4EBAD}
 		{420E7775-230F-4A59-A3EE-C18E08688831} = {1B7B0F14-935C-4EBA-82BA-4A8E4AF4EBAD}
 		{54A4D578-AAF0-4C5B-850E-7CDC2A5920D1} = {FA3D333D-51BA-4A3F-973C-44AE4489AFC3}
-		{FD5535AB-35CA-46DE-AF47-8D0FBA798809} = {5467AE7E-408D-4BCB-8C9B-8B79FBA8AABB}
-		{725143E1-92A4-4CBB-AADC-35053654CD1A} = {5467AE7E-408D-4BCB-8C9B-8B79FBA8AABB}
-		{6227B0DE-EA67-41E0-A110-08CCA3A57C98} = {5467AE7E-408D-4BCB-8C9B-8B79FBA8AABB}
 		{15D14F35-2770-444F-AF43-32CDFF490903} = {95B92E84-466E-484E-A040-0DC3121F3321}
 		{76B143E1-8E63-4520-AF10-6BBB33CA518E} = {57DBDF3D-11DE-4A59-A8DA-190E46A054E3}
 	EndGlobalSection
