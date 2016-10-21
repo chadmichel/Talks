@@ -20,7 +20,6 @@ namespace DPLRef.eCommerce.Accessors.Catalog
                         })
                         .FirstOrDefault();
 
-
             if (model != null)
             {
                 var catalog = new WebStoreCatalog();

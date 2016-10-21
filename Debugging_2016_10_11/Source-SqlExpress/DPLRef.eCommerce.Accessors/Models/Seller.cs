@@ -21,5 +21,6 @@ namespace DPLRef.eCommerce.Accessors.Models
         public DateTime UpdatedAt { get; set; }
 
         public string UserName { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

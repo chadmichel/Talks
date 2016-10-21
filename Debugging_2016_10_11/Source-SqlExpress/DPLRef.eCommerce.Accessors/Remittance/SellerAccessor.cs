@@ -9,7 +9,7 @@ namespace DPLRef.eCommerce.Accessors.Remittance
         {
             var db = new Models.eCommerceDbContext();
             var model = (from s in db.Sellers
-                         where s.Id == id
+                         where s.Id == id && s.IsDeleted == false
                          select s)
                         .FirstOrDefault();
 
@@ -60,7 +60,8 @@ namespace DPLRef.eCommerce.Accessors.Remittance
 
             if (model != null)
             {
-                db.Sellers.Remove(model);
+                model.IsDeleted = true;
+                //db.Sellers.Remove(model);
                 db.SaveChanges();
             }
         }
